@@ -3,7 +3,25 @@ entries:
   docker-registry-cmy:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-05-20T15:36:13.030914093Z"
+    created: "2021-05-31T16:30:08.263275946Z"
+    dependencies:
+    - name: docker-registry
+      repository: ""
+      version: 1.9.6
+    description: Docker-registry chart tailored to Cloudmobility
+    digest: 7b3864bc9c3ba51f9e926d25ffd63d51716f737f7a05e4319bb799c7a4d5d14a
+    icon: https://hub.docker.com/public/images/logos/mini-logo.svg
+    maintainers:
+    - email: j.marques@kigroup.de
+      name: João Marques
+    name: docker-registry-cmy
+    type: application
+    urls:
+    - https://cloudmobility.github.io/charts/docker-registry-cmy-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-05-31T16:30:08.261438636Z"
     dependencies:
     - name: docker-registry
       repository: ""
@@ -19,4 +37,4 @@ entries:
     urls:
     - https://cloudmobility.github.io/charts/docker-registry-cmy-0.2.0.tgz
     version: 0.2.0
-generated: "2021-05-20T15:36:13.02904476Z"
+generated: "2021-05-31T16:30:08.259614227Z"
