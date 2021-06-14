@@ -3,13 +3,13 @@ entries:
   docker-registry-cmy:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-05-31T17:09:28.267234972Z"
+    created: "2021-06-14T08:03:23.465152164Z"
     dependencies:
     - name: docker-registry
       repository: ""
       version: 1.9.6
     description: Docker-registry chart tailored to Cloudmobility
-    digest: 21dd50b9a23d87253a8ab8e687bd90b658c76b304b120a6a27c6ed7a1796f1aa
+    digest: 1dea2d5b6166d7a09837072e86551965ddf8e23a169d45225aeee7ec180cb92e
     icon: https://hub.docker.com/public/images/logos/mini-logo.svg
     maintainers:
     - email: j.marques@kigroup.de
@@ -21,7 +21,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-05-31T17:09:28.264240157Z"
+    created: "2021-06-14T08:03:23.463581054Z"
     dependencies:
     - name: docker-registry
       repository: ""
@@ -37,4 +37,15 @@ entries:
     urls:
     - https://cloudmobility.github.io/charts/docker-registry-cmy-0.2.0.tgz
     version: 0.2.0
-generated: "2021-05-31T17:09:28.262446048Z"
+  hello:
+  - apiVersion: v2
+    appVersion: 0.1.82
+    created: "2021-06-14T08:03:23.4656562Z"
+    description: An hello cloudmobility application
+    digest: 0d96f3376e1a0766a812bc44b3d8657b7d3bc3395ab96e6fbe4805820d4d279f
+    name: hello
+    type: application
+    urls:
+    - https://cloudmobility.github.io/charts/hello-1.0.0.tgz
+    version: 1.0.0
+generated: "2021-06-14T08:03:23.461707222Z"
