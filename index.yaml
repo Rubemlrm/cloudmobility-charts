@@ -3,12 +3,12 @@ entries:
   hello:
   - apiVersion: v2
     appVersion: 0.1.82
-    created: "2021-06-18T15:25:24.230966853Z"
+    created: "2021-06-30T15:06:26.265670544Z"
     description: An hello cloudmobility application
-    digest: fc38828ab01006f41f231a47562113c559c45fd75e0c4db6c2b0e0d510dc11e0
+    digest: e1c0802f3b4650443888170faaf72953375bbe6cd6410e2cc8aac02053ae4e37
     name: hello
     type: application
     urls:
     - https://cloudmobility.github.io/charts/hello-1.0.0.tgz
     version: 1.0.0
-generated: "2021-06-18T15:25:24.227914798Z"
+generated: "2021-06-30T15:06:26.264896312Z"
