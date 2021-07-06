@@ -3,16 +3,16 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: 8.0.4
-    created: "2021-07-06T14:56:16.886892996Z"
+    created: "2021-07-06T17:13:32.848380324Z"
     dependencies:
     - name: grafana
       repository: https://charts.bitnami.com/bitnami
       version: 6.0.1
     description: Grafana is an open source, feature rich metrics dashboard and graph
       editor for Graphite, Elasticsearch, OpenTSDB, Prometheus and InfluxDB(TM).
-    digest: 0776c18c0302d417355a17031b2016b37efca4bdd51720e0a0bfd78f6fddd074
+    digest: 9e3e6de510b2658c42139f2198a25f1fe4cbde96afdf6f97092b3006439b525b
     home: https://github.com/cloudmobility/charts/tree/master/charts/grafana
-    icon: https://github.com/cloudmobility/charts/tree/master/charts/grafana/icons/grafana-240x240.png?raw=true
+    icon: https://cloudmobility.io/icons/charts/grafana.png
     maintainers:
     - email: t.sousa@kigroup.de
       name: Tiago Sousa
@@ -24,12 +24,17 @@ entries:
   hello:
   - apiVersion: v2
     appVersion: 0.1.82
-    created: "2021-07-06T14:56:16.887376095Z"
+    created: "2021-07-06T17:13:32.850202342Z"
     description: An hello cloudmobility application
-    digest: e2ee587a79c8029115d43590abc11e1bca443f3de8547e13f12dab8f33ea5e57
+    digest: 26f14eb8991a3fdb35b085cf08b33131bb2925bf3282bc95601b0eabc1ba1371
+    home: https://github.com/cloudmobility/charts/tree/master/charts/hello
+    icon: https://cloudmobility.io/icons/charts/hello.png
+    maintainers:
+    - email: t.sousa@kigroup.de
+      name: Tiago Sousa
     name: hello
     type: application
     urls:
     - https://cloudmobility.github.io/charts/hello-1.0.0.tgz
     version: 1.0.0
-generated: "2021-07-06T14:56:16.882901402Z"
+generated: "2021-07-06T17:13:32.843646475Z"
