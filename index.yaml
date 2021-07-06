@@ -3,14 +3,14 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: 8.0.4
-    created: "2021-07-06T14:55:59.40126203Z"
+    created: "2021-07-06T14:56:16.886892996Z"
     dependencies:
     - name: grafana
       repository: https://charts.bitnami.com/bitnami
       version: 6.0.1
     description: Grafana is an open source, feature rich metrics dashboard and graph
       editor for Graphite, Elasticsearch, OpenTSDB, Prometheus and InfluxDB(TM).
-    digest: 0ff106751ba97eb98a272346d20db40a9b052f35f2d2adc7bc0a994da5978705
+    digest: 0776c18c0302d417355a17031b2016b37efca4bdd51720e0a0bfd78f6fddd074
     home: https://github.com/cloudmobility/charts/tree/master/charts/grafana
     icon: https://github.com/cloudmobility/charts/tree/master/charts/grafana/icons/grafana-240x240.png?raw=true
     maintainers:
@@ -24,12 +24,12 @@ entries:
   hello:
   - apiVersion: v2
     appVersion: 0.1.82
-    created: "2021-07-06T14:55:59.401675136Z"
+    created: "2021-07-06T14:56:16.887376095Z"
     description: An hello cloudmobility application
-    digest: 2f79c9afbc28b4a13bc861a0beaa20ec9e77e49e7c0e0dc30bb81eeeed2a82da
+    digest: e2ee587a79c8029115d43590abc11e1bca443f3de8547e13f12dab8f33ea5e57
     name: hello
     type: application
     urls:
     - https://cloudmobility.github.io/charts/hello-1.0.0.tgz
     version: 1.0.0
-generated: "2021-07-06T14:55:59.397700474Z"
+generated: "2021-07-06T14:56:16.882901402Z"
