@@ -3,14 +3,14 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: 8.0.4
-    created: "2021-07-14T15:06:52.879274814Z"
+    created: "2021-07-15T15:20:39.371276793Z"
     dependencies:
     - name: grafana
       repository: https://charts.bitnami.com/bitnami
       version: 6.0.1
     description: Grafana is an open source, feature rich metrics dashboard and graph
       editor for Graphite, Elasticsearch, OpenTSDB, Prometheus and InfluxDB(TM).
-    digest: 333a99e1851dce3b980daa5ba10fa3b8b23af8c88b74ee276d31aaea1a1ca7c5
+    digest: e6ebdb02d1cc44188238feb56d3a59933c140c9c09a68eafd83ae9e22d9ea594
     home: https://github.com/cloudmobility/charts/tree/master/charts/grafana
     icon: https://cloudmobility.io/icons/charts/grafana.png
     maintainers:
@@ -23,7 +23,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 8.0.4
-    created: "2021-07-14T15:06:52.875456831Z"
+    created: "2021-07-15T15:20:39.367228037Z"
     dependencies:
     - name: grafana
       repository: https://charts.bitnami.com/bitnami
@@ -43,8 +43,23 @@ entries:
     version: 1.0.0
   hello:
   - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-07-15T15:20:39.372471169Z"
+    description: An hello cloudmobility application
+    digest: 808c2290e5c76d5edc1991276f997745bb1f718652ad282231e01bce86a0f9b8
+    home: https://github.com/cloudmobility/charts/tree/master/charts/hello
+    icon: https://cloudmobility.io/icons/charts/hello.png
+    maintainers:
+    - email: t.sousa@kigroup.de
+      name: Tiago Sousa
+    name: hello
+    type: application
+    urls:
+    - https://cloudmobility.github.io/charts/hello-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
     appVersion: 0.1.82
-    created: "2021-07-14T15:06:52.880323137Z"
+    created: "2021-07-15T15:20:39.37184803Z"
     description: An hello cloudmobility application
     digest: f2d7f5793c0996e64c9e569cff57c4d5573ddc21f0f49c2b8cc5413f3aa39f2b
     home: https://github.com/cloudmobility/charts/tree/master/charts/hello
@@ -57,4 +72,4 @@ entries:
     urls:
     - https://cloudmobility.github.io/charts/hello-1.0.0.tgz
     version: 1.0.0
-generated: "2021-07-14T15:06:52.871796652Z"
+generated: "2021-07-15T15:20:39.362596643Z"
