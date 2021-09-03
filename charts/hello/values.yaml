@@ -1,5 +1,5 @@
 image:
-  repository: joaopmarques66/hello-world
+  repository: eu.gcr.io/ccp-prod-239910/charts/hello-world
   tag: 1.1.0
   pullPolicy: IfNotPresent
   pullSecrets: [ ]
