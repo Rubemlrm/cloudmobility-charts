@@ -1,5 +1,6 @@
 1. Get the application URL by running these commands:
 
 {{- if .Values.ingress.enabled }}
-    kubectl get ingress -o jsonpath="{.items[*].spec.rules[*].host}"
+  You can get the generated host name by running:
+  kubectl -n {{ .Release.Namespace }} get ingress {{ include "hello.fullname" . }} -o jsonpath='{.spec.rules[0].host}'
 {{- end }}

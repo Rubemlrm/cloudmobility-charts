@@ -41,14 +41,17 @@ spec:
             - name: http
               containerPort: 8000
               protocol: TCP
-          livenessProbe:
-            httpGet:
-              path: /health
-              port: http
           readinessProbe:
-            httpGet:
-              path: /entries
-              port: http
+            exec:
+              command:
+              - sh
+              - -c
+              - curl --fail http://localhost:8000/health
+            failureThreshold: 4
+            initialDelaySeconds: 15
+            periodSeconds: 15
+            successThreshold: 1
+            timeoutSeconds: 2
           resources:
       {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
