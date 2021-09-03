@@ -14,9 +14,6 @@ metadata:
   annotations:
   {{- toYaml . | nindent 4 }}
   {{- end }}
-  {{- if $isSharedIngressController}}
-    cloudmobility.io/generate-hostname: "true"
-  {{- end}}
 spec:
   rules:
     {{- range .Values.ingress.hosts }}
