@@ -3,14 +3,14 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: 8.0.4
-    created: "2021-09-27T10:25:38.040912105Z"
+    created: "2021-09-27T13:30:59.659783947Z"
     dependencies:
     - name: grafana
       repository: https://charts.bitnami.com/bitnami
       version: 6.0.1
     description: Grafana is an open source, feature rich metrics dashboard and graph
       editor for Graphite, Elasticsearch, OpenTSDB, Prometheus and InfluxDB(TM).
-    digest: 295e7fefda101426a999cf59e8b76f6ad97cc2720849d686262b18e07ebe746d
+    digest: d7b1e1d41cd1c2de127e2ff64c1f2b29b545d7a52fc13de84e70af6643aba4cf
     home: https://github.com/cloudmobility/charts/tree/master/charts/grafana
     icon: https://cloudmobility.io/icons/charts/grafana.png
     maintainers:
@@ -23,7 +23,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 8.0.4
-    created: "2021-09-27T10:25:38.037626867Z"
+    created: "2021-09-27T13:30:59.655339393Z"
     dependencies:
     - name: grafana
       repository: https://charts.bitnami.com/bitnami
@@ -44,7 +44,22 @@ entries:
   hello:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-09-27T10:25:38.045009254Z"
+    created: "2021-09-27T13:30:59.666303566Z"
+    description: An hello cloudmobility application
+    digest: 267b8208f1b10344f4531d466d9433fb315436713a2c12c85a8565227bcdbf76
+    home: https://github.com/cloudmobility/charts/tree/master/charts/hello
+    icon: https://cloudmobility.io/icons/charts/hello.png
+    maintainers:
+    - email: t.sousa@kigroup.de
+      name: Tiago Sousa
+    name: hello
+    type: application
+    urls:
+    - https://cloudmobility.github.io/charts/hello-1.2.3.tgz
+    version: 1.2.3
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-09-27T13:30:59.665665116Z"
     description: An hello cloudmobility application
     digest: 8532774fc755ceb9c52b8dad1828ba6e19d3168b6cdab4dd79b3dcb1570b8f84
     home: https://github.com/cloudmobility/charts/tree/master/charts/hello
@@ -59,7 +74,7 @@ entries:
     version: 1.2.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-09-27T10:25:38.044253545Z"
+    created: "2021-09-27T13:30:59.665057667Z"
     description: An hello cloudmobility application
     digest: bf22042f466607b46bcfc1d34d7b620b45b041d25edc6f98f47ad89cf9f15a05
     home: https://github.com/cloudmobility/charts/tree/master/charts/hello
@@ -74,7 +89,7 @@ entries:
     version: 1.2.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-09-27T10:25:38.043499236Z"
+    created: "2021-09-27T13:30:59.664023285Z"
     description: An hello cloudmobility application
     digest: 84a9eaa53b59607ea677496b996116cbe361db861822dc7fb4659f1e4d040cdf
     home: https://github.com/cloudmobility/charts/tree/master/charts/hello
@@ -89,7 +104,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-09-27T10:25:38.04300203Z"
+    created: "2021-09-27T13:30:59.663218021Z"
     description: An hello cloudmobility application
     digest: cc6d0ad2c0a7a800d9eb63ddfc5acf2723d208e6cc7b01c1a630a52f2635c285
     home: https://github.com/cloudmobility/charts/tree/master/charts/hello
@@ -104,7 +119,7 @@ entries:
     version: 1.1.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-09-27T10:25:38.042481624Z"
+    created: "2021-09-27T13:30:59.662367953Z"
     description: An hello cloudmobility application
     digest: 46c63e0693f38642300d0d6b3a3732939042ccfe8803ab9ad61a265f3d9be3ae
     home: https://github.com/cloudmobility/charts/tree/master/charts/hello
@@ -119,7 +134,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-09-27T10:25:38.041928717Z"
+    created: "2021-09-27T13:30:59.660911937Z"
     description: An hello cloudmobility application
     digest: 808c2290e5c76d5edc1991276f997745bb1f718652ad282231e01bce86a0f9b8
     home: https://github.com/cloudmobility/charts/tree/master/charts/hello
@@ -134,7 +149,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 0.1.82
-    created: "2021-09-27T10:25:38.041400211Z"
+    created: "2021-09-27T13:30:59.660309089Z"
     description: An hello cloudmobility application
     digest: f2d7f5793c0996e64c9e569cff57c4d5573ddc21f0f49c2b8cc5413f3aa39f2b
     home: https://github.com/cloudmobility/charts/tree/master/charts/hello
@@ -147,4 +162,4 @@ entries:
     urls:
     - https://cloudmobility.github.io/charts/hello-1.0.0.tgz
     version: 1.0.0
-generated: "2021-09-27T10:25:38.034053725Z"
+generated: "2021-09-27T13:30:59.651239067Z"
