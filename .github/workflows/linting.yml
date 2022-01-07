@@ -1,17 +1,15 @@
-name: release
+name: linting
 
 on:
   push:
-    branches: [master]
-  workflow_run:
-    workflows:
-      - linting
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+    branches:
+      - "**"
+    tags-ignore:
+      - "**"
 jobs:
   build:
     runs-on: ubuntu-20.04
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+
     steps:
       - uses: actions/checkout@v2
         with:
@@ -26,7 +24,5 @@ jobs:
           version: v3.7.2
       - name: Add helm charts repositories
         run: make ci-add-helm-repos
-      - name: Run chart-releaser
-        uses: helm/chart-releaser-action@v1.2.1
-        env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+      - name: Install helm charts
+        run: make ci-install-helm-charts
