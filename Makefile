@@ -22,3 +22,6 @@ ci-lint-install-depenedencies: ## Install helm chart dependencies
 	@helm dependency update ./charts/grafana && \
 	helm dependency update ./charts/hello && \
 	helm dependency update ./charts/opensearch-stack
+
+.PHONY: lint-charts
+lint-charts: ci-add-helm-repos ci-lint-helm-charts ci-lint-install-depenedencies ## Lint Helm charts
