@@ -3,6 +3,26 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: 8.0.4
+    created: "2022-01-07T12:07:29.814273729Z"
+    dependencies:
+    - name: grafana
+      repository: https://charts.bitnami.com/bitnami
+      version: 6.0.1
+    description: Grafana is an open source, feature rich metrics dashboard and graph
+      editor for Graphite, Elasticsearch, OpenTSDB, Prometheus and InfluxDB(TM).
+    digest: ddaae45658e226f3e22e71580c4a871b90ff22a4c24731c427cf36f0632f1671
+    home: https://github.com/cloudmobility/charts/tree/master/charts/grafana
+    icon: https://cloudmobility.io/icons/charts/grafana.png
+    maintainers:
+    - email: t.sousa@kigroup.de
+      name: Tiago Sousa
+    name: grafana
+    type: application
+    urls:
+    - https://github.com/Rubemlrm/cloudmobility-charts/releases/download/grafana-1.1.2/grafana-1.1.2.tgz
+    version: 1.1.2
+  - apiVersion: v2
+    appVersion: 8.0.4
     created: "2021-10-22T13:22:27.44917546Z"
     dependencies:
     - name: grafana
@@ -62,6 +82,21 @@ entries:
     - https://cloudmobility.github.io/charts/grafana-1.0.0.tgz
     version: 1.0.0
   hello:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-01-07T12:07:29.935324525Z"
+    description: An hello cloudmobility application
+    digest: 585217661f3bade1de53f937f68f951be251db3c5f5853c479c23b09b3403dfb
+    home: https://github.com/cloudmobility/charts/tree/master/charts/hello
+    icon: https://cloudmobility.io/icons/charts/hello.png
+    maintainers:
+    - email: t.sousa@kigroup.de
+      name: Tiago Sousa
+    name: hello
+    type: application
+    urls:
+    - https://github.com/Rubemlrm/cloudmobility-charts/releases/download/hello-1.2.4/hello-1.2.4.tgz
+    version: 1.2.4
   - apiVersion: v2
     appVersion: 1.0.0
     created: "2021-10-22T13:22:27.453758469Z"
@@ -182,4 +217,30 @@ entries:
     urls:
     - https://cloudmobility.github.io/charts/hello-1.0.0.tgz
     version: 1.0.0
-generated: "2021-10-22T13:22:27.436552833Z"
+  opensearch-stack:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-01-07T12:07:30.087024603Z"
+    dependencies:
+    - name: opensearch
+      repository: https://opensearch-project.github.io/helm-charts/
+      version: 1.5.8
+    - name: opensearch-dashboards
+      repository: https://opensearch-project.github.io/helm-charts/
+      version: 1.1.2
+    - name: fluentd
+      repository: https://fluent.github.io/helm-charts
+      version: 0.3.4
+    description: Cloud Mobility Stack for OpenSearch
+    digest: c3c83d8a98f76986adee06d54dbc7bb1dee6cafe51a227891983be9a019dc992
+    home: https://github.com/cloudmobility/charts/tree/master/charts/efk-stack
+    icon: https://cloudmobility.io/icons/charts/opensearch.png
+    maintainers:
+    - email: r.mota@kigroup.de
+      name: Rubem Mota
+    name: opensearch-stack
+    type: application
+    urls:
+    - https://github.com/Rubemlrm/cloudmobility-charts/releases/download/opensearch-stack-1.0.0/opensearch-stack-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-01-07T12:07:30.087082704Z"
