@@ -293,6 +293,33 @@ entries:
   - annotations:
       enabled: "true"
     apiVersion: v2
+    appVersion: 1.0.2
+    created: "2022-02-10T15:08:58.607257779Z"
+    dependencies:
+    - name: opensearch
+      repository: https://opensearch-project.github.io/helm-charts/
+      version: 1.6.0
+    - name: opensearch-dashboards
+      repository: https://opensearch-project.github.io/helm-charts/
+      version: 1.2.0
+    - name: fluentd
+      repository: https://fluent.github.io/helm-charts
+      version: 0.3.4
+    description: Cloud Mobility Stack for OpenSearch
+    digest: 33583ff56804e6b285769391cf414d22809f8fc41d57a7ab3772b4ea3f7352bb
+    home: https://github.com/cloudmobility/charts/tree/master/charts/opensearch-stack
+    icon: https://portal.cloudmobility.io/icons/charts/opensearch.png
+    maintainers:
+    - email: r.mota@kigroup.de
+      name: Rubem Mota
+    name: opensearch-stack
+    type: application
+    urls:
+    - https://github.com/Rubemlrm/cloudmobility-charts/releases/download/opensearch-stack-1.0.6/opensearch-stack-1.0.6.tgz
+    version: 1.0.6
+  - annotations:
+      enabled: "true"
+    apiVersion: v2
     appVersion: 1.0.1
     created: "2022-01-12T09:51:17.530085858Z"
     dependencies:
@@ -417,4 +444,4 @@ entries:
     urls:
     - https://github.com/Rubemlrm/cloudmobility-charts/releases/download/opensearch-stack-1.0.0/opensearch-stack-1.0.0.tgz
     version: 1.0.0
-generated: "2022-01-12T09:51:17.530203763Z"
+generated: "2022-02-10T15:08:58.607333479Z"
