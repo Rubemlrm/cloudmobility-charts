@@ -1,9 +1,12 @@
 ---
+{{- if (eq .Values.opensearch.users.dashboard.user .Values.opensearch.users.logging.user) }}
+{{- fail "Can't use the same username for dashboard and logging" }}
+{{- end }}
 apiVersion: v1
 kind: Secret
 metadata:
   name: cmy-opensearch-internal-users-config
-  labels: {{- include "efk.labels" . | nindent 4 }}
+  labels: {{- include "efk.labels" . | nindent 4}}
 type: Opaque
 stringData:
   internal_users.yml: |
